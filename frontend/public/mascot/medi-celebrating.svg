@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <!-- Soft shadow -->
+  <ellipse cx="100" cy="225" rx="55" ry="10" fill="#168C89" opacity="0.15" />
+
+  <!-- Tiny Feet - Little jump pose -->
+  <rect x="70" y="196" width="16" height="22" rx="8" transform="rotate(-8 70 196)" fill="#126B70" />
+  <rect x="114" y="198" width="16" height="22" rx="8" transform="rotate(8 114 198)" fill="#126B70" />
+
+  <!-- Arms - Raised high in celebration -->
+  <path d="M52 135 C35 110 32 85 46 72 C52 66 60 76 56 92" stroke="#126B70" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M148 135 C158 115 162 95 155 80" stroke="#126B70" stroke-width="8" stroke-linecap="round" fill="none" />
+
+  <!-- Capsule Body Base -->
+  <defs>
+    <clipPath id="capsule-clip-celebrating">
+      <rect x="50" y="30" width="100" height="175" rx="50" />
+    </clipPath>
+  </defs>
+
+  <rect x="50" y="30" width="100" height="175" rx="50" fill="#FFF9F1" stroke="#233444" stroke-width="6" />
+
+  <g clip-path="url(#capsule-clip-celebrating)">
+    <path d="M45 120 L155 120 L155 210 L45 210 Z" fill="#168C89" />
+    <line x1="45" y1="120" x2="155" y2="120" stroke="#233444" stroke-width="5" />
+    <path d="M58 128 C58 155 60 175 75 190" stroke="#48C7B8" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M100 162 C100 162 86 150 86 141 C86 135 91 131 96 131 C99 131 100 133 100 133 C100 133 101 131 104 131 C109 131 114 135 114 141 C114 150 100 162 100 162 Z" fill="#FFFFFF" />
+  </g>
+
+  <path d="M66 52 C72 44 82 40 98 40" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Joyful squinting/excited eyes ^ ^ -->
+  <path d="M74 86 Q82 76 90 86" stroke="#233444" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <path d="M110 86 Q118 76 126 86" stroke="#233444" stroke-width="4.5" stroke-linecap="round" fill="none" />
+
+  <!-- Rosy Cheeks -->
+  <ellipse cx="73" cy="94" rx="6" ry="4" fill="#FFAAA6" opacity="0.8" />
+  <ellipse cx="127" cy="94" rx="6" ry="4" fill="#FFAAA6" opacity="0.8" />
+
+  <!-- Open wide happy mouth -->
+  <path d="M89 92 Q100 110 111 92 Z" fill="#E63946" stroke="#233444" stroke-width="3" />
+
+  <!-- Golden Trophy held in right hand -->
+  <g transform="translate(142, 52)">
+    <path d="M8 12 L24 12 L22 26 C22 32 17 36 16 36 C15 36 10 32 10 26 Z" fill="#FFD166" stroke="#233444" stroke-width="2.5" />
+    <!-- Handles -->
+    <path d="M8 15 C3 15 3 24 8 25" stroke="#233444" stroke-width="2" fill="none" />
+    <path d="M24 15 C29 15 29 24 24 25" stroke="#233444" stroke-width="2" fill="none" />
+    <!-- Base -->
+    <path d="M16 36 L16 42 M10 42 L22 42" stroke="#233444" stroke-width="2.5" stroke-linecap="round" />
+    <!-- Star on trophy -->
+    <circle cx="16" cy="22" r="2.5" fill="#FFFFFF" />
+  </g>
+
+  <!-- Confetti Elements -->
+  <rect x="30" y="45" width="6" height="6" rx="1.5" fill="#FF85A1" transform="rotate(25 30 45)" />
+  <circle cx="48" cy="30" r="3.5" fill="#48CAE4" />
+  <rect x="135" y="24" width="7" height="4" rx="1" fill="#06D6A0" transform="rotate(-35 135 24)" />
+  <circle cx="178" cy="110" r="3" fill="#FFD166" />
+  <path d="M25 105 Q28 112 35 110" stroke="#FFB703" stroke-width="2.5" fill="none" stroke-linecap="round" />
+</svg>

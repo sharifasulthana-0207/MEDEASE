@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" fill="none">
+  <!-- Soft glow/shadow -->
+  <ellipse cx="100" cy="225" rx="55" ry="10" fill="#168C89" opacity="0.15" />
+
+  <!-- Tiny Feet -->
+  <rect x="74" y="200" width="16" height="22" rx="8" fill="#126B70" />
+  <rect x="110" y="200" width="16" height="22" rx="8" fill="#126B70" />
+
+  <!-- Arms - One waving, one resting -->
+  <path d="M52 140 C40 145 35 155 42 165" stroke="#126B70" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M148 135 C165 120 170 100 162 90 C156 84 148 92 148 105" stroke="#126B70" stroke-width="8" stroke-linecap="round" fill="none" />
+
+  <!-- Capsule Body Base -->
+  <defs>
+    <clipPath id="capsule-clip-wink">
+      <rect x="50" y="30" width="100" height="175" rx="50" />
+    </clipPath>
+  </defs>
+
+  <rect x="50" y="30" width="100" height="175" rx="50" fill="#FFF9F1" stroke="#233444" stroke-width="6" />
+
+  <g clip-path="url(#capsule-clip-wink)">
+    <path d="M45 120 L155 120 L155 210 L45 210 Z" fill="#168C89" />
+    <line x1="45" y1="120" x2="155" y2="120" stroke="#233444" stroke-width="5" />
+    <path d="M58 128 C58 155 60 175 75 190" stroke="#48C7B8" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.6" />
+    <path d="M100 162 C100 162 86 150 86 141 C86 135 91 131 96 131 C99 131 100 133 100 133 C100 133 101 131 104 131 C109 131 114 135 114 141 C114 150 100 162 100 162 Z" fill="#FFFFFF" />
+  </g>
+
+  <path d="M66 52 C72 44 82 40 98 40" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" opacity="0.8" />
+
+  <!-- Winking Face -->
+  <!-- Left Eye: Winking arch -->
+  <path d="M75 88 Q83 80 91 88" stroke="#233444" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <!-- Right Eye: Open round -->
+  <circle cx="118" cy="85" r="7" fill="#233444" />
+  <circle cx="120" cy="83" r="2.5" fill="#FFFFFF" />
+
+  <!-- Rosy Cheeks -->
+  <ellipse cx="73" cy="95" rx="6" ry="4" fill="#FFAAA6" opacity="0.8" />
+  <ellipse cx="127" cy="95" rx="6" ry="4" fill="#FFAAA6" opacity="0.8" />
+
+  <!-- Playful Smirk -->
+  <path d="M92 95 Q102 104 110 94" stroke="#233444" stroke-width="4" stroke-linecap="round" fill="none" />
+
+  <!-- Friendly Star -->
+  <path d="M172 65 Q172 73 164 73 Q172 73 172 81 Q172 73 180 73 Q172 73 172 65 Z" fill="#FFD166" />
+</svg>
